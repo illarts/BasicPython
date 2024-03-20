@@ -25,7 +25,9 @@ def euclid(a, b):
 
 euclid(a, b)
 
-# extra question
+
+
+# extra question ###########################################################################
 
 import random
 import math
@@ -64,7 +66,6 @@ if t < h:
     
 answer = h / t
 example_answer = 6 / math.pi**2
-
 
 print("1 万以下の 2 つの自然数をランダムに 10 万組生成して、各組が互いに素である確率は" + str(answer))
 print("6 / pi**2を少数で表すと" + str(example_answer))
